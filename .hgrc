@@ -1,0 +1,20 @@
+[ui]
+username = Mike Davis <michaeltdavis@gmail.com>
+ssh = /usr/bin/ssh -A
+editor = vim
+ignore = ~/.hgignore
+merge = internal:merge
+
+[extensions]
+color=
+rebase=
+strip=
+pager=
+purge=
+
+[diff]
+git=1
+
+[pager]
+pager= LESS='FRX' less
+
