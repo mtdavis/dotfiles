@@ -1,8 +1,10 @@
 [ui]
-username = Mike Davis <michaeltdavis@gmail.com>
-ssh = /usr/bin/ssh -A
+ssh = /usr/bin/ssh -AC
 editor = vim
 ignore = ~/.hgignore
+
+%include ~/.hginclude
+username = Mike Davis <miked@prometheusresearch.com>
 merge = internal:merge
 
 [extensions]
